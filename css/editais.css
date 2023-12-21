@@ -1,0 +1,94 @@
+/*universal*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+#logo {
+	height: 80px;
+}
+/*cabeçalho do site*/
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	align-items: center;
+	margin: 10px;
+}
+.menu > ul > li {
+	display: inline;
+}
+.menu > ul > li > a:link {
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+}
+.menu > ul > li > a:hover {
+	border-bottom: 2px solid green;
+}
+.menu > ul > li > a:active {
+	color: green;
+	border-bottom: 2px solid green;
+}
+#ativo {
+	border-bottom: 2px solid green;
+}
+
+/*rodape*/
+footer {
+	text-align: center;
+	padding: 20px;
+	background: darkgreen;
+	font-family: 'Poppins', sans-serif;
+}
+footer > p > a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+}
+.esquerda {
+	text-align: center;
+	color: #ffffff;
+}
+.cor {
+	color: lightgray;
+}
+.body {
+	background-color: #4099e6;
+}
+#logo {
+	height: 70px;
+}
+.menu ul li {
+	display: inline;
+}
+#banner-principal {
+	width: 100%;
+}
+.Gestão {
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+	color: green;
+}
+.Inscrições {
+	text-align: left;
+	font-size: 20px;
+	padding-left: 2%;
+}
+.Cursos {
+	font-size: 20px;
+	padding-left: 2%;
+}
+.edital-style{
+	margin: 10%;
+	padding: 50%;
+	height: 100px;
+	padding-top: 1px;
+}
+.edital-text{
+	 text-align: end;
+	 color: darkgreen;
+}

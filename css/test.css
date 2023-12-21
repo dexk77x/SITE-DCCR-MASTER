@@ -1,0 +1,6 @@
+.BgVerdeGrad3 {
+    background: #00501b;
+    background: -webkit-gradient(linear, left top, right top, from(#00501b), color-stop(50%, #066f32), color-stop(99%, #00501b));
+    background: linear-gradient(to right, #00501b 0%, #066f32 50%, #00501b 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00501b', endColorstr='#00501b',GradientType=1 );
+}

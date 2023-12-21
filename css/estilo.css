@@ -1,0 +1,102 @@
+/*layout do home*/
+/*Gnéricos*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+background: #ffffff;
+text-align: center;
+}
+/*Cabeçalho do site (Header)*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+    margin: 10px;
+}
+#logo{
+height: 80px;
+
+}
+.menu > ul > li{
+    display: inline;
+}
+.menu > ul > li > a:link{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;   
+}
+.menu > ul > li > a:hover{
+    border-bottom: 2px solid green;
+}
+.menu > ul > li > a:active{
+    color: green;
+    border-bottom: 2px solid green;
+    
+}
+#ativo{
+    border-bottom: 2px solid green;
+}
+/*Seções*/
+.banner-principal{
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffffff;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+}
+.banner{
+width: 250px; /* Largura*/
+height: 250px;/* Altura*/
+margin-bottom: 20px;
+border-radius: 40%;/* Formato da borda*/
+}
+#video{
+    background: rgba(135,200,120,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-bottom: 3px solid orange;
+}
+#video > .container > img{
+    height: 315px;
+}
+
+
+
+aside{width: 15%;
+float: left;
+padding: 0px 10px;
+
+}
+.asi{width: 15%;
+float: right;
+padding: 0px 10px ;}
+
+
+#video{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-bottom: 3px solid orange;
+}
+#video > .container > img{
+    height: 315px;
+}

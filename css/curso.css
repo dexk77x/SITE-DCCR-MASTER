@@ -1,0 +1,70 @@
+/*universal*/
+/*universal*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#logo{
+    height: 80px; /*altura*/
+}
+/*cabeçalho do site*/
+header{
+    width: 100%; /*largura*/
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+}
+.menu > ul > li{
+    display: inline;
+}
+.menu > ul > li > a:link{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;   
+}
+.menu > ul > li > a:hover{
+    border-bottom: 2px solid green;
+}
+.menu > ul > li > a:active{
+    color: green;
+    border-bottom: 2px solid green;
+    
+}
+#ativo{
+    border-bottom: 2px solid green;
+}
+/*imagens dos cursos*/
+.img{
+    align-items: center;  
+    width: 600px;
+    padding-left: 5%;
+    
+
+}
+/*alinhamento*/
+h2{
+text-align: center;
+padding-left: 20px;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: inline-block;
+    text-align: right;
+    background-color: blue;
+}
+.containerB {
+background-color: red;
+display: inline;
+align-items: justify;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffffff;
+}

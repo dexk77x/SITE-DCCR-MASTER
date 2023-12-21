@@ -1,0 +1,14 @@
+.container-form{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.container-form img {
+    width: 50%;
+    height: 500px;
+    margin-right: 20px;
+}
+.container-form form{
+    width: 50%;
+    height: 450px;
+}

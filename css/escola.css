@@ -1,0 +1,72 @@
+
+.menu > ul > li > a:link{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    }
+    .menu > ul > li > a:hover{
+    border-bottom: 2px solid green;
+    }
+    .menu > ul > li > a:active{
+    color:green;
+    border-bottom: 2px solid green;
+    font-weight: 700;
+    }
+    #ativo{
+    border-bottom: 2px solid green;
+    }
+            
+    header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+    #logo{
+    height: 70px;
+    }
+    .menu ul li{
+    display: inline ;
+    }#banner-principal{
+    width: 100%;
+    }
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }    
+    .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffffff;
+    }
+    .banner-principal{
+     width: 100%;
+    }
+    .conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+    }
+              
+    .img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 40%;
+    }  
+            
+    .img2{
+    width: 45px;
+    height: 45px;
+     margin-bottom: 20px;
+     border-radius: 40%;       
+                
+    }     
+    .Gestão{background-color: lightgrey ;
+    align-items: center;
+    text-align: center;}

@@ -1,0 +1,16 @@
+/*rodape*/
+.esquerda{text-align: center; color: #ffffff;}
+
+.cor{color: lightgray;}
+
+footer{
+text-align: center;
+padding: 20px;
+background:darkgreen;
+}
+
+
+footer > p > a{
+text-decoration: none;
+color: #000000;
+}

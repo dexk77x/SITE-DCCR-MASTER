@@ -1,0 +1,116 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0 auto;
+}
+
+.informacoes .logo {
+	max-width: 350px;
+	filter: invert(1);
+	margin-bottom: 80px;
+}
+
+.informacoes .descricao {
+	width: 49%;
+	font-size: 24px;
+	color: #fff;
+	line-height: 30px;
+}
+
+.botoes-carrossel {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.botoes-carrossel .botao {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	cursor: pointer;
+	border-color: #fff;
+}
+
+.botoes-carrossel .botao.selecionado {
+	background-color: #1d8346;
+}
+
+.menu-lateral {
+	background-color: rgba(97, 97, 97, 0.178);
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.menu-lateral ul {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.menu-lateral .icone {
+	width: 30px;
+	filter: invert(1);
+	transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover {
+	transform: scale(1.2);
+}
+
+.carrosel {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.carrosel .imagem {
+	object-fit: cover;
+	display: none;
+	animation: mudarImagens 0.7s;
+}
+.carrosel img {
+	max-width: calc(100vw - 40px - 316px);
+	min-width: calc(100vw - 40px - 316px);
+	height: 900px;
+	background-position: center;
+	background-size: cover;
+}
+.carrosel .imagem.ativa {
+	display: block;
+}
+.carrosel-navigation {
+	max-width: 316px;
+}
+.destaque {
+	margin-left: 1rem;
+	border-left: 4px solid #00a84a;
+	cursor: pointer;
+}
+.destaque:hover {
+	color: #00a84a;
+}
+.destaque span {
+	color: #00a84a;
+	font-weight: normal;
+}
+.carrosel-navigation h4 a {
+	color: #000;
+}
+.carrosel-navigation h4 a:hover {
+	color: #00a84a;
+}
+@keyframes mudarImagens {
+	from {
+		opacity: 0.85;
+	}
+	to {
+		opacity: 1;
+	}
+}
