@@ -1,0 +1,28 @@
+.link_evento{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 5%;
+}
+.conteudo_link{
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+}
+.conteudo_texto{
+    align-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: larger;
+    border-bottom: green;
+}
+.link_evento > .conteudo_link > a > h3{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px; 
+    border-style: double;
+}

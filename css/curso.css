@@ -1,5 +1,4 @@
 /*universal*/
-/*universal*/
 *{
     box-sizing: border-box;
     padding: 0;
@@ -47,9 +46,9 @@ header{
 }
 /*alinhamento*/
 h2{
-text-align: center;
-padding-left: 20px;
-font-family: 'Poppins', sans-serif;
+   text-align: center;
+   padding-left: 20px;
+   font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -58,13 +57,11 @@ font-family: 'Poppins', sans-serif;
     background-color: blue;
 }
 .containerB {
-background-color: red;
-display: inline;
-align-items: justify;
+padding-left: 7%;
 }
 .cont{
     display: flex;
     justify-content: space-around;
     padding: 40px;
-    background-color: #ffffff;
+    background-color: #ffffff;
 }

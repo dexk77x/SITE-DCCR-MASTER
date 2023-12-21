@@ -1,84 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/test.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sua Página</title>
+  <style>
+    .image-container {
+      position: relative;
+      max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      box-sizing: border-box;
+      background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+      color: #fff;
+    }
+
+    h2 {
+      margin: 0;
+    }
+  </style>
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="UltimasNoticias">
-
-        <h2 class="-SmallTitle"> Últimas Notícias </h2>
-
-<div class="SliderManchetes">
-
-<figure class="frame">
-<img src="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/12/231220_SANCAO-VAI-E-VEM-MARANGUAPE_HB8263-1200x800-1.jpg" class="attachment-medio size-medio" alt="Governo do Ceará lança primeira fase do Programa VaiVem" decoding="async" fetchpriority="high" srcset="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/12/231220_SANCAO-VAI-E-VEM-MARANGUAPE_HB8263-1200x800-1.jpg 1200w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/12/231220_SANCAO-VAI-E-VEM-MARANGUAPE_HB8263-1200x800-1-600x400.jpg 600w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/12/231220_SANCAO-VAI-E-VEM-MARANGUAPE_HB8263-1200x800-1-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />                                    <figcaption>
-                                    <a href="https://www.seduc.ce.gov.br/2023/12/20/governo-do-ceara-lanca-primeira-fase-do-programa-vaivem/">
-<h3 class="-bold">Governo do Ceará lança primeira fase do Programa VaiVem</h3>
-</a>
-
-<div class="actions">
-                                                                                    </div>
-</figcaption>
-</figure>
-
-
-<figure class="frame">
-<img src="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2022/10/WhatsApp-Image-2022-10-07-at-09.22.11.jpeg" class="attachment-medio size-medio" alt="Concurso professor: Seduc divulga orientações para a solicitação de lotação" decoding="async" srcset="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2022/10/WhatsApp-Image-2022-10-07-at-09.22.11.jpeg 1280w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2022/10/WhatsApp-Image-2022-10-07-at-09.22.11-600x338.jpeg 600w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2022/10/WhatsApp-Image-2022-10-07-at-09.22.11-1200x675.jpeg 1200w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2022/10/WhatsApp-Image-2022-10-07-at-09.22.11-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" />                                    <figcaption>
-                                    <a href="https://www.seduc.ce.gov.br/2023/12/05/concurso-professor-solenidade-de-posse-centro-de-eventos-fortaleza-dia-09-01-23/">
-<h3 class="-bold">Concurso professor: Seduc divulga orientações para a solicitação de lotação</h3>
-</a>
-
-<div class="actions">
-                                                                                    </div>
-</figcaption>
-</figure>
-
-
-<figure class="frame">
-<img src="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/matricula_2024.jpg" class="attachment-medio size-medio" alt="Seduc publica portaria de matrícula para o ano letivo 2024" decoding="async" srcset="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/matricula_2024.jpg 1595w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/matricula_2024-600x338.jpg 600w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/matricula_2024-1200x676.jpg 1200w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/matricula_2024-768x432.jpg 768w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/matricula_2024-1536x865.jpg 1536w" sizes="(max-width: 1595px) 100vw, 1595px" />                                    <figcaption>
-                                    <a href="https://www.seduc.ce.gov.br/2023/11/23/seduc-publica-portaria-de-matricula-para-o-ano-letivo-2024/">
-<h3 class="-bold">Seduc publica portaria de matrícula para o ano letivo 2024</h3>
-</a>
-
-<div class="actions">
-                                                                                    </div>
-</figcaption>
-</figure>
-
-
-<figure class="frame">
-<img src="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/Fotos-para-CAPA-2023-5.jpg" class="attachment-medio size-medio" alt="Divulgados procedimentos e cronograma para solicitar remoção de professores em 2024" decoding="async" loading="lazy" srcset="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/Fotos-para-CAPA-2023-5.jpg 734w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/Fotos-para-CAPA-2023-5-600x400.jpg 600w" sizes="(max-width: 734px) 100vw, 734px" />                                    <figcaption>
-                                    <a href="https://www.seduc.ce.gov.br/2023/11/16/divulgados-procedimentos-e-cronograma-para-solicitar-remocao-de-professores-em-2024/">
-<h3 class="-bold">Divulgados procedimentos e cronograma para solicitar remoção de professores em 2024</h3>
-</a>
-
-<div class="actions">
-                                                                                    </div>
-</figcaption>
-</figure>
-
-
-<figure class="frame">
-<img src="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/WhatsApp-Image-2023-11-08-at-11.15.51.jpeg" class="attachment-medio size-medio" alt="Escola cearense vencedora do “Melhores do Mundo” expandirá ações com prêmio recebido" decoding="async" loading="lazy" srcset="https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/WhatsApp-Image-2023-11-08-at-11.15.51.jpeg 1282w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/WhatsApp-Image-2023-11-08-at-11.15.51-600x337.jpeg 600w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/WhatsApp-Image-2023-11-08-at-11.15.51-1200x675.jpeg 1200w, https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2023/11/WhatsApp-Image-2023-11-08-at-11.15.51-768x432.jpeg 768w" sizes="(max-width: 1282px) 100vw, 1282px" />                                    <figcaption>
-                                    <a href="https://www.seduc.ce.gov.br/2023/11/08/escola-cearense-vencedora-do-melhores-do-mundo-expandira-acoes-com-premio-recebido/">
-<h3 class="-bold">Escola cearense vencedora do “Melhores do Mundo” expandirá ações com prêmio recebido</h3>
-</a>
-
-<div class="actions">
-                                                                                    </div>
-</figcaption>
-</figure>
-
-        </div>
-
-</div>
-
-
-
-
-</div>
+  <div class="image-container">
+    <img src="./img/Cjovem2.jpg" alt="Descrição da imagem">
+    <div class="overlay">
+      <h2 style="color: rgb(255, 255, 255); font-family: 'Poppins', sans-serif;">Nossa escola foi convidada ao evento do C-Jovem</h2>
+    </div>
+  </div>
 </body>
 </html>
