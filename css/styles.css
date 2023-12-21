@@ -68,7 +68,6 @@ body {
 	left: 0;
 	width: 100%;
 	z-index: -1;
-	
 }
 
 .carrosel .imagem {
@@ -79,7 +78,7 @@ body {
 .carrosel img {
 	max-width: calc(100vw - 40px - 316px);
 	min-width: calc(100vw - 40px - 316px);
-	height: 500px;
+	height: 550px;
 	background-position: center;
 	background-size: cover;
 }
@@ -107,21 +106,17 @@ body {
 .carrosel-navigation h4 a:hover {
 	color: #00a84a;
 }
-.carrosel-content{
-	position: relative;
-
-}
 .overley{
 	position: absolute;
       top: 0;
       left: 0;
       width: 75.5%;
-      height: 100%;
+      height: 120%;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       padding: 50px;
-      
+
       background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
       color: #fff; 
 }
@@ -133,3 +128,4 @@ body {
 		opacity: 1;
 	}
 }
+
